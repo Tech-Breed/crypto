@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>USDT Converter</title>
+  
+  </head>
+  <body>
+    <h1>USDT Converter</h1>
+  
+
+    <label for="amount">USDT:</label>
+	<input type="number" id="amount" oninput="calculate()">
+    
+    <br>
+    <label for="crypto"> cryptocurrency:</label>
+	<select id="crypto" onchange="calculate()">
+		<option value="btc">Bitcoin
+        </option>
+		<option value="eth">Ethereum
+        </option>
+		<option value="doge">Dogecoin
+        </option>
+		<option value="trx">Tron
+        </option>
+		<option value="xrp">Ripple
+        </option>
+	</select>
+
+	<p id="result"> Result: <input type="number"></p>
+
+	
+
+	<script src="script.js"></script>
+</body>
+</html>
+
+    
+    
